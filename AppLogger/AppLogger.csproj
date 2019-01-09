@@ -3,10 +3,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>AppLogger_ABC</PackageId>
-    <Authors>AppLogger_ABC</Authors>
-    <Company>AppLogger_ABC</Company>
-    <Product>AppLogger_ABC</Product>
+    <PackageId>AppLogger_ABCD</PackageId>
+    <Authors>AppLogger_ABCD</Authors>
+    <Company>AppLogger_ABCD</Company>
+    <Product>AppLogger_ABCD</Product>
   </PropertyGroup>
 
 </Project>
