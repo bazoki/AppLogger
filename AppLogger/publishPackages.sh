@@ -5,5 +5,5 @@
 # SEE: https://github.com/Microsoft/artifacts-credprovider/blob/master/README.md
 
 for i in `find . -name "*.nupkg" -type f`; do
-    echo "$i"
+	dotnet nuget push "$i" -s test-feed -k anything
 done
