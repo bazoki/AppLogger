@@ -8,14 +8,16 @@ cp  AppLogger/NuGet.config .
 
 for i in `find . -name "*.nupkg" -type f`; do
 	
-	output=$(output=dotnet nuget push "$i" -s test-feed -k anything; 2>&1)
+	output=$(dotnet nuget push "$i" -s test-feed -k anything; 2>&1)
 	
 	ret=$?
 
 	if [[ $ret -eq 0 ]]; then
+		echo 'No issues'
 		echo OK
 	else
 		if [[ $output == *'Conflict - The feed already contains'* ]]; then
+			echo 'issue - duplicate but it is okay'
 			 echo OK
 		else
 			 echo FAIL
