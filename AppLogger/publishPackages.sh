@@ -8,10 +8,10 @@ cp  AppLogger/NuGet.config .
 
 for i in `find . -name "*.nupkg" -type f`; do
 	echo $i;
-	output=$(dotnet nuget push $i -s test-feedx -k anything;)
+
+	dotnet nuget push $i -s test-feedx -k anything;
 	
 	ret=$?
-	echo $output
 	echo $?
 
 	if [[ $ret -eq 0 ]]; then
