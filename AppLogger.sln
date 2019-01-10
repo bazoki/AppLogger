@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLogger", "AppLogger\AppLogger.csproj", "{FF2CDDF2-E61D-4569-A0DE-426EFE9F5D5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project1", "Project1\Project1.csproj", "{100C9EAC-77DB-41A0-BECF-19812FE2ECF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{136B2C06-26CE-4209-9765-B56AD2328EEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FF2CDDF2-E61D-4569-A0DE-426EFE9F5D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF2CDDF2-E61D-4569-A0DE-426EFE9F5D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF2CDDF2-E61D-4569-A0DE-426EFE9F5D5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{100C9EAC-77DB-41A0-BECF-19812FE2ECF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{100C9EAC-77DB-41A0-BECF-19812FE2ECF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{100C9EAC-77DB-41A0-BECF-19812FE2ECF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{100C9EAC-77DB-41A0-BECF-19812FE2ECF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{136B2C06-26CE-4209-9765-B56AD2328EEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{136B2C06-26CE-4209-9765-B56AD2328EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{136B2C06-26CE-4209-9765-B56AD2328EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{136B2C06-26CE-4209-9765-B56AD2328EEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
