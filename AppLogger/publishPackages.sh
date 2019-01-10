@@ -4,6 +4,8 @@
 # install it into $HOME/.nuget/plugins.
 # SEE: https://github.com/Microsoft/artifacts-credprovider/blob/master/README.md
 
+cp  AppLogger/NuGet.config .
+
 for i in `find . -name "*.nupkg" -type f`; do
 	dotnet nuget push "$i" -s test-feed -k anything
 done
