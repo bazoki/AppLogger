@@ -6,8 +6,8 @@
     <PackageId>Project2-HelloWorld</PackageId>
     <Authors>Project2-HelloWorld</Authors>
     <Product>Project2-HelloWorld</Product>
-	<VersionPrefix>6.1</VersionPrefix>
-    <Version Condition=" '$(BUILD_BUILDNUMBER)' != '' ">$(BUILD_BUILDNUMBER)</Version>
+	<VersionPrefix>6.1.2</VersionPrefix>
+	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
   </PropertyGroup>
 
   <ItemGroup>
