@@ -9,7 +9,6 @@
     <Product>Project1-HelloWorld</Product>
     <VersionPrefix>9.5.3</VersionPrefix>
 	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
-    <Version>9.5.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

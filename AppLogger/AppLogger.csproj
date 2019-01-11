@@ -7,9 +7,9 @@
     <Authors>AppLogger_ABCD</Authors>
     <Company>AppLogger_ABCD</Company>
     <Product>AppLogger_ABCD</Product>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <VersionPrefix>9.5.3</VersionPrefix>
 	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
-    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>s
   </PropertyGroup>
 
 </Project>
