@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>Project1-HelloWorld</PackageId>
     <Authors>Project1-HelloWorld</Authors>
     <Company>Project1-HelloWorld</Company>
