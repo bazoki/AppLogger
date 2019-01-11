@@ -2,13 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageId>Project2-HelloWorld</PackageId>
     <Authors>Project2-HelloWorld</Authors>
     <Product>Project2-HelloWorld</Product>
-	<VersionPrefix>1.243</VersionPrefix>
-	<Version>6.1</Version>
+	<Version>6.1.2</Version>
+	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
   </PropertyGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\AppLogger\AppLogger.csproj" />
