@@ -7,7 +7,7 @@
     <Authors>Project1-HelloWorld</Authors>
     <Company>Project1-HelloWorld</Company>
     <Product>Project1-HelloWorld</Product>
-    <VersionPrefix>9.5.3</VersionPrefix>
+    <Version>9.5.8</Version>
 	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
   </PropertyGroup>
 
