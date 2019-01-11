@@ -7,8 +7,8 @@
     <Authors>Project1-HelloWorld</Authors>
     <Company>Project1-HelloWorld</Company>
     <Product>Project1-HelloWorld</Product>
-		<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
-	<CommitHash>$(CODEBUILD_RESOLVED_SOURCE_VERSION)</CommitHash>
+    <VersionPrefix>9.5.3</VersionPrefix>
+	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
     <Version>9.5.2</Version>
   </PropertyGroup>
 

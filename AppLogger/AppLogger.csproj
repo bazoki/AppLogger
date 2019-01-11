@@ -7,9 +7,8 @@
     <Authors>AppLogger_ABCD</Authors>
     <Company>AppLogger_ABCD</Company>
     <Product>AppLogger_ABCD</Product>
-    <Version>9.5.2</Version>
-		<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
-	<CommitHash>$(CODEBUILD_RESOLVED_SOURCE_VERSION)</CommitHash>
+    <VersionPrefix>9.5.3</VersionPrefix>
+	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>s
   </PropertyGroup>
 

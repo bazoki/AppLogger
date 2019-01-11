@@ -6,9 +6,8 @@
     <PackageId>Project2-HelloWorld</PackageId>
     <Authors>Project2-HelloWorld</Authors>
     <Product>Project2-HelloWorld</Product>
+	<VersionPrefix>9.5.3</VersionPrefix>
 	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
-	<CommitHash>$(CODEBUILD_RESOLVED_SOURCE_VERSION)</CommitHash>
-	<Version>9.5.4</Version>
   </PropertyGroup>
 
 
