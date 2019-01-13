@@ -6,7 +6,7 @@
     <PackageId>Project2-HelloWorld</PackageId>
     <Authors>Project2-HelloWorld</Authors>
     <Product>Project2-HelloWorld</Product>
-	<Version>4.3.2</Version>
+	<Version>4.3.3</Version>
 	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
 	<RepositoryUrl></RepositoryUrl>
   </PropertyGroup>
