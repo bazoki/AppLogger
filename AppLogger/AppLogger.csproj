@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>AppLogger_ABCD</PackageId>
     <Authors>AppLogger_ABCD</Authors>
     <Company>AppLogger_ABCD</Company>

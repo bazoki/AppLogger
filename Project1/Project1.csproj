@@ -1,18 +1,19 @@
+<?xml version="1.0"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Project1-HelloWorld</PackageId>
     <Authors>Project1-HelloWorld</Authors>
     <Company>Project1-HelloWorld</Company>
     <Product>Project1-HelloWorld</Product>
-    <Version>9.5.8</Version>
-	<VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
+    <Version>9.5.8.banana123.123</Version>
+    <VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
+    <Description>123abc</Description>
+    <RepositoryUrl>https://github.com/bazoki/AppLogger/</RepositoryUrl>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\AppLogger\AppLogger.csproj" />
+    <ProjectReference Include="..\AppLogger\AppLogger.csproj"/>
   </ItemGroup>
-
 </Project>
