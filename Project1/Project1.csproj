@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
@@ -8,12 +8,12 @@
     <Authors>Project1-HelloWorld</Authors>
     <Company>Project1-HelloWorld</Company>
     <Product>Project1-HelloWorld</Product>
-    <Version>9.5.8.banana123.123</Version>
+    <Version>4.3.2</Version>
     <VersionSuffix>$(BUILD_BUILDNUMBER)</VersionSuffix>
-    <Description>123abc</Description>
-    <RepositoryUrl>https://github.com/bazoki/AppLogger/</RepositoryUrl>
+    <Description></Description>
+    <newtag>tagval</newtag>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppLogger\AppLogger.csproj"/>
+    <ProjectReference Include="..\AppLogger\AppLogger.csproj" />
   </ItemGroup>
 </Project>
